@@ -1,6 +1,6 @@
 <html>
     <h1 align="center">Ordem Númerica</h1>
-    <p>O projeto foi desenvolvido com a intenção de aprimorar meus conhecimentos em CSS e JAVASCRIPT. Nele você pode gerar uma ordem crescente e descrecento de um determinado intervalo.</p>
+    <p>O projeto foi desenvolvido com a intenção de aprimorar meus conhecimentos em CSS e JAVASCRIPT. Nele você pode gerar uma ordem crescente e decrescente de um determinado intervalo.</p>
     <h2>⚙️FERRAMENTAS UTILIZADAS NO PROJETO:</h2>
     <ul>
         <li>HTML</li>
