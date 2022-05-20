@@ -11,6 +11,6 @@
     <ul>
     <h1>🔎 Demonstração do projeto</h1>
     <img src="./img/Animação_numeros.gif" alt="img">
-    <p> Veja meu Projeto 👉 <a href=""></a></p>
+    <p align="center"> Veja meu Projeto 👉 <a href=" https://nandamsouza.github.io/numeros/" target="_blank">Link</a></p>
 
 </html>
