@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/16/000000/external-number-gamification-flaticons-lineal-color-flat-icons.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="stylesheet" href="/css/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <title>Números</title>
+</head>
+<body>
+    <header>
+      <h1>Ordem Numérica</h1>
+    </header>
+    <section>
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="col col-lg-4  px-0">
+            <div class="card-1">
+                 <p>Escolha os intervalos da contagem.</p>
+                  <label for="inicio">Início</label>
+                   <div class="box">
+                     <input id="inicio" type="range" name="range" min="0" max="100" value="0">
+                     <div class="valor">100</div>
+                   </div>
+                   <label for="final">Final</label>
+                   <div class="box">
+                     <input id="final" type="range" name="range" min="0" max="100" value="100">
+                     <div class="valor2">100</div>
+                   </div>
+                   <label for="Qpassos">Quantidade de passos</label>
+                   <div class="box">
+                       <input id="passo" type="range" name="range" min="1" max="10" value="1" >
+                     <div class="valor3">100</div>
+                   </div>
+                   <p>Escolha uma opção.</p>
+                  <div class="d-grid gap-2 col-6 mx-auto">
+                   <button class="btn btn-danger" type="button" id="botaoC" onclick="btnCresc()">Crescente</button>
+                    <button class="btn btn-danger" type="button" onclick="btnDesc()">Decrescente</button>
+                  </div>
+            </div>
+          </div>
+          <div class="col col-lg-4 px-0">
+            <div class="card-2">
+                <h2>Resultado</h2>
+                <div class="card-resp">
+                  <div class="box-icon">
+                     <img src="https://img.icons8.com/color/48/000000/0-cute.png" alt="icon0">
+                     <img src="https://img.icons8.com/color/48/000000/1-cute.png" alt="icon1">
+                     <img src="https://img.icons8.com/color/48/000000/2-cute.png" alt="icon2">
+                     <img src="https://img.icons8.com/color/48/000000/3-cute.png" alt="icon3">
+                  </div>
+                  <textarea name="texto" id="texto" cols="40" rows="8" readonly disabled style="resize:none;"></textarea>
+                  <div class="d-grid gap-3 col-6 mx-auto">
+                    <button class="btn btn-danger" type="button"onclick="apagar()">Apagar</button>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer><p><a href=""></a>Acesse meu Github <img src="https://img.icons8.com/glyph-neue/30/000000/github.png" alt="icon"> <a href="https://github.com/nandamsouza" target="_blank">nandamsouza</a></p></footer>
+</body>
+<script src="/js/scritpt.js"></script>
+</html>
