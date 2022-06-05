@@ -80,9 +80,10 @@ header h1{
     font-family: sans-serif;
     font-weight: bold;
 }
-textarea{
+.textarea{
     resize: none;
     margin-bottom: 14px;
+    margin-left: 12px;
 }
 input[type="range"]{
     -webkit-appearance: none;
@@ -138,17 +139,22 @@ a:hover{
     font-weight: bold;
 }
 
-@media  screen and (max-width : 412px) {
+@media  screen and (max-width : 700px) {
    header{
     margin-bottom: 4%;
    }
-    textarea{
+    .textarea{
     resize: none;
-    margin-left: 34px;
+    margin-left: 88px;
     margin-bottom: 9px;
   }
+  .card-1{
+      border-radius: 5px 5px 0px 0px;
+  }
   .card-2{
-      margin-top: 1%;
+      margin-top: 0%;
+      margin-bottom: 10px;
+      border-radius: 0px 0px 5px 5px;
   }
 }
 
